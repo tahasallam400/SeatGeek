@@ -29,8 +29,6 @@
 		359FDF7E25A6150400244322 /* SeatGeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 359FDF7C25A6150400244322 /* SeatGeek.xcdatamodeld */; };
 		359FDF8025A6150500244322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359FDF7F25A6150500244322 /* Assets.xcassets */; };
 		359FDF8325A6150500244322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359FDF8125A6150500244322 /* LaunchScreen.storyboard */; };
-		359FDF8E25A6150600244322 /* SeatGeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359FDF8D25A6150600244322 /* SeatGeekTests.swift */; };
-		359FDF9925A6150600244322 /* SeatGeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359FDF9825A6150600244322 /* SeatGeekUITests.swift */; };
 		359FDFC025A6220300244322 /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359FDFBE25A6220300244322 /* mainCell.swift */; };
 		359FDFC125A6220300244322 /* mainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 359FDFBF25A6220300244322 /* mainCell.xib */; };
 		359FE00F25A6311900244322 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359FE00E25A6311900244322 /* EventList.swift */; };
@@ -57,26 +55,7 @@
 		359FE07B25A6470500244322 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359FE07A25A6470500244322 /* Country.swift */; };
 		359FE08025A6471E00244322 /* InHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359FE07F25A6471E00244322 /* InHand.swift */; };
 		359FE08525A6473800244322 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359FE08425A6473800244322 /* Meta.swift */; };
-		56F248419D35080BA86C42BF /* Pods_SeatGeekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB824EF8B8CEF6272DD9955 /* Pods_SeatGeekTests.framework */; };
-		F6C50C5E12D38ACBE77A94F8 /* Pods_SeatGeek_SeatGeekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F794F6069214157A5C1C5D6 /* Pods_SeatGeek_SeatGeekUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		359FDF8A25A6150600244322 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 359FDF6825A6150400244322 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 359FDF6F25A6150400244322;
-			remoteInfo = SeatGeek;
-		};
-		359FDF9525A6150600244322 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 359FDF6825A6150400244322 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 359FDF6F25A6150400244322;
-			remoteInfo = SeatGeek;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F52ACF3B761A531FE73890E /* Pods-SeatGeekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatGeekTests.debug.xcconfig"; path = "Target Support Files/Pods-SeatGeekTests/Pods-SeatGeekTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,12 +83,6 @@
 		359FDF7F25A6150500244322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		359FDF8225A6150500244322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		359FDF8425A6150500244322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		359FDF8925A6150600244322 /* SeatGeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatGeekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		359FDF8D25A6150600244322 /* SeatGeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatGeekTests.swift; sourceTree = "<group>"; };
-		359FDF8F25A6150600244322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		359FDF9425A6150600244322 /* SeatGeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatGeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		359FDF9825A6150600244322 /* SeatGeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatGeekUITests.swift; sourceTree = "<group>"; };
-		359FDF9A25A6150600244322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		359FDFBE25A6220300244322 /* mainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCell.swift; sourceTree = "<group>"; };
 		359FDFBF25A6220300244322 /* mainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainCell.xib; sourceTree = "<group>"; };
 		359FE00E25A6311900244322 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
@@ -151,22 +124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1753DB560825CFB79CBD08EF /* Pods_SeatGeek.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		359FDF8625A6150600244322 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				56F248419D35080BA86C42BF /* Pods_SeatGeekTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		359FDF9125A6150600244322 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6C50C5E12D38ACBE77A94F8 /* Pods_SeatGeek_SeatGeekUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				359FDF7225A6150400244322 /* SeatGeek */,
-				359FDF8C25A6150600244322 /* SeatGeekTests */,
-				359FDF9725A6150600244322 /* SeatGeekUITests */,
 				359FDF7125A6150400244322 /* Products */,
 				CC2C2D6C985083381A0C642E /* Pods */,
 				68ED304B6FECBD6CDCC2F4DD /* Frameworks */,
@@ -285,8 +240,6 @@
 			isa = PBXGroup;
 			children = (
 				359FDF7025A6150400244322 /* SeatGeek.app */,
-				359FDF8925A6150600244322 /* SeatGeekTests.xctest */,
-				359FDF9425A6150600244322 /* SeatGeekUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,24 +256,6 @@
 				359FDFB525A61E2300244322 /* Other */,
 			);
 			path = SeatGeek;
-			sourceTree = "<group>";
-		};
-		359FDF8C25A6150600244322 /* SeatGeekTests */ = {
-			isa = PBXGroup;
-			children = (
-				359FDF8D25A6150600244322 /* SeatGeekTests.swift */,
-				359FDF8F25A6150600244322 /* Info.plist */,
-			);
-			path = SeatGeekTests;
-			sourceTree = "<group>";
-		};
-		359FDF9725A6150600244322 /* SeatGeekUITests */ = {
-			isa = PBXGroup;
-			children = (
-				359FDF9825A6150600244322 /* SeatGeekUITests.swift */,
-				359FDF9A25A6150600244322 /* Info.plist */,
-			);
-			path = SeatGeekUITests;
 			sourceTree = "<group>";
 		};
 		359FDFAF25A6163E00244322 /* View */ = {
@@ -473,45 +408,6 @@
 			productReference = 359FDF7025A6150400244322 /* SeatGeek.app */;
 			productType = "com.apple.product-type.application";
 		};
-		359FDF8825A6150600244322 /* SeatGeekTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 359FDFA025A6150600244322 /* Build configuration list for PBXNativeTarget "SeatGeekTests" */;
-			buildPhases = (
-				F481E45CF11EDA7BA1542319 /* [CP] Check Pods Manifest.lock */,
-				359FDF8525A6150600244322 /* Sources */,
-				359FDF8625A6150600244322 /* Frameworks */,
-				359FDF8725A6150600244322 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				359FDF8B25A6150600244322 /* PBXTargetDependency */,
-			);
-			name = SeatGeekTests;
-			productName = SeatGeekTests;
-			productReference = 359FDF8925A6150600244322 /* SeatGeekTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		359FDF9325A6150600244322 /* SeatGeekUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 359FDFA325A6150600244322 /* Build configuration list for PBXNativeTarget "SeatGeekUITests" */;
-			buildPhases = (
-				402CB5EAE606B7CDAFA98AC9 /* [CP] Check Pods Manifest.lock */,
-				359FDF9025A6150600244322 /* Sources */,
-				359FDF9125A6150600244322 /* Frameworks */,
-				359FDF9225A6150600244322 /* Resources */,
-				00930FF628E2D3B7E1461980 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				359FDF9625A6150600244322 /* PBXTargetDependency */,
-			);
-			name = SeatGeekUITests;
-			productName = SeatGeekUITests;
-			productReference = 359FDF9425A6150600244322 /* SeatGeekUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -523,14 +419,6 @@
 				TargetAttributes = {
 					359FDF6F25A6150400244322 = {
 						CreatedOnToolsVersion = 12.3;
-					};
-					359FDF8825A6150600244322 = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 359FDF6F25A6150400244322;
-					};
-					359FDF9325A6150600244322 = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 359FDF6F25A6150400244322;
 					};
 				};
 			};
@@ -548,8 +436,6 @@
 			projectRoot = "";
 			targets = (
 				359FDF6F25A6150400244322 /* SeatGeek */,
-				359FDF8825A6150600244322 /* SeatGeekTests */,
-				359FDF9325A6150600244322 /* SeatGeekUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -568,40 +454,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359FDF8725A6150600244322 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		359FDF9225A6150600244322 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00930FF628E2D3B7E1461980 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SeatGeek-SeatGeekUITests/Pods-SeatGeek-SeatGeekUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SeatGeek-SeatGeekUITests/Pods-SeatGeek-SeatGeekUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeatGeek-SeatGeekUITests/Pods-SeatGeek-SeatGeekUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		232FA7D69DD64A3699E53C52 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -617,28 +472,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeatGeek/Pods-SeatGeek-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		402CB5EAE606B7CDAFA98AC9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SeatGeek-SeatGeekUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D218590334C999B1649D7142 /* [CP] Check Pods Manifest.lock */ = {
@@ -657,28 +490,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SeatGeek-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F481E45CF11EDA7BA1542319 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SeatGeekTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -736,36 +547,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359FDF8525A6150600244322 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				359FDF8E25A6150600244322 /* SeatGeekTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		359FDF9025A6150600244322 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				359FDF9925A6150600244322 /* SeatGeekUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		359FDF8B25A6150600244322 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 359FDF6F25A6150400244322 /* SeatGeek */;
-			targetProxy = 359FDF8A25A6150600244322 /* PBXContainerItemProxy */;
-		};
-		359FDF9625A6150600244322 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 359FDF6F25A6150400244322 /* SeatGeek */;
-			targetProxy = 359FDF9525A6150600244322 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		359FDF7925A6150400244322 /* Main.storyboard */ = {
@@ -943,94 +725,6 @@
 			};
 			name = Release;
 		};
-		359FDFA125A6150600244322 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F52ACF3B761A531FE73890E /* Pods-SeatGeekTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74B95GHWXG;
-				INFOPLIST_FILE = SeatGeekTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Technical.Assessment.com.SeatGeekTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeatGeek.app/SeatGeek";
-			};
-			name = Debug;
-		};
-		359FDFA225A6150600244322 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D960801C8A3C2B39B9AFAE61 /* Pods-SeatGeekTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74B95GHWXG;
-				INFOPLIST_FILE = SeatGeekTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Technical.Assessment.com.SeatGeekTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeatGeek.app/SeatGeek";
-			};
-			name = Release;
-		};
-		359FDFA425A6150600244322 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F177C8007D34A19F12C0FCD5 /* Pods-SeatGeek-SeatGeekUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74B95GHWXG;
-				INFOPLIST_FILE = SeatGeekUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Technical.Assessment.com.SeatGeekUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SeatGeek;
-			};
-			name = Debug;
-		};
-		359FDFA525A6150600244322 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35DC6A46C10A819705DD354C /* Pods-SeatGeek-SeatGeekUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74B95GHWXG;
-				INFOPLIST_FILE = SeatGeekUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Technical.Assessment.com.SeatGeekUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SeatGeek;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1048,24 +742,6 @@
 			buildConfigurations = (
 				359FDF9E25A6150600244322 /* Debug */,
 				359FDF9F25A6150600244322 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		359FDFA025A6150600244322 /* Build configuration list for PBXNativeTarget "SeatGeekTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				359FDFA125A6150600244322 /* Debug */,
-				359FDFA225A6150600244322 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		359FDFA325A6150600244322 /* Build configuration list for PBXNativeTarget "SeatGeekUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				359FDFA425A6150600244322 /* Debug */,
-				359FDFA525A6150600244322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
